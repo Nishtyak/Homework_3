@@ -16,12 +16,12 @@ double Find_lenght (int X1, int Y1, int Z1, int X2, int Y2, int Z2)
     return Lenght;
 }
 
-int x1 = Enter_coordinate(nameof(x1));
-int y1 = Enter_coordinate(nameof(y1));
-int z1 = Enter_coordinate(nameof(z1));
-int x2 = Enter_coordinate(nameof(x2));
-int y2 = Enter_coordinate(nameof(y2));
-int z2 = Enter_coordinate(nameof(z2));
+int x1 = Enter_coordinate("x1");
+int y1 = Enter_coordinate("y1");
+int z1 = Enter_coordinate("z1");
+int x2 = Enter_coordinate("x2");
+int y2 = Enter_coordinate("y2");
+int z2 = Enter_coordinate("z2");
 
 double lenght = Math.Round(Find_lenght(x1, y1, z1, x2, y2, z2), 2);
 Console.Write($"Длина отрезка: {lenght}");
